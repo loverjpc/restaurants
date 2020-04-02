@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commont" />
+        <module name="entity" />
+        <module name="provider" />
+        <module name="server" />
+        <module name="consumer" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commont" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="entity" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="restaurants" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

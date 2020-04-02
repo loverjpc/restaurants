@@ -1,0 +1,14 @@
+server:
+  port: 8087
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8084/eureka/
+spring:
+  application:
+    name: zuul
+zuul:
+  routes:
+    hello:
+      path: /beijing/**
+      service-id: consumer

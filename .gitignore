@@ -1,0 +1,5 @@
+# Project exclude paths
+/commont/target/
+/entity/target/
+/provider/target/
+/server/target/
